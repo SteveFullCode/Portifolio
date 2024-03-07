@@ -87,8 +87,7 @@ const Contato = () => {
             Enviar Mensagem
           </button>
           <h4 className="text-red-300">
-            Está em desenvolvimento, por favor use as minhas redes sociais, em
-            breve colocarei o WhatsApp
+            Está em desenvolvimento, por favor use as minhas redes sociais!
           </h4>
         </form>
       </div>

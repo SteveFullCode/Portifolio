@@ -4,6 +4,7 @@ import Header from "@/components/header/header";
 import { cn } from "@/lib/utils";
 import React, { ReactNode } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
+import Footer from "@/components/footer";
 
 type RootLayoutProps = {
   children: ReactNode;
@@ -28,7 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <link rel="icon" href="./favicon.ico" sizes="eu" />
       <body
         className={cn(
-          "flex min-h-screen bg-background font-sans flex-col container",
+          "flex min-h-screen bg-background font-sans flex-col relative",
           `${poppins.variable}`
         )}
       >
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <div className="" id="home">
             {children}
           </div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

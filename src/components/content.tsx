@@ -39,9 +39,17 @@ export default function Content() {
             Fortaleza-ce Brasil <strong className="animate-pulse">📍</strong>
           </p>
           <div className="flex justify-between ">
-            <Link href="https://wa.me/+558599673669?text=" target="_blank">
-              <Button className="font-semibold">Contate-me</Button>
-            </Link>
+            <div className="flex flex-col gap-2">
+              <Link href="https://wa.me/+558599673669?text=" target="_blank">
+                <Button className="font-semibold">Contate-me</Button>
+              </Link>
+              <Link
+                href="https://drive.google.com/file/d/1kPJwsO4D2g40OusKT3xIhcPvas8_1sC6/view?usp=drive_link"
+                target="_blank"
+              >
+                <Button className="font-semibold">CV currículo</Button>
+              </Link>
+            </div>
             <div className="flex gap-2">
               <Link
                 href="https://www.linkedin.com/in/isthivi-h-8277a7271/"

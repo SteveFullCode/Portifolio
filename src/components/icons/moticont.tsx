@@ -52,33 +52,23 @@ const AllLearningTechs = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_bgCarrier" />
 
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+            <g id="SVGRepo_tracerCarrier" />
 
             <g id="SVGRepo_iconCarrier">
               {" "}
               <title>databases-and-servers/databases/mongodb</title>{" "}
               <desc>Created with Sketch.</desc> <defs> </defs>{" "}
-              <g
-                id="databases-and-servers/databases/mongodb"
-                stroke="none"
-                stroke-width="1"
-                fill="none"
-                fill-rule="evenodd"
-              >
+              <g id="databases-and-servers/databases/mongodb" stroke="none">
                 {" "}
                 <g
                   id="container"
                   transform="translate(2.000000, 2.000000)"
                   fill="#FFFFFF"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   stroke="#134514"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   {" "}
                   <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14">
@@ -88,7 +78,7 @@ const AllLearningTechs = () => {
                 <g
                   id="Group"
                   transform="translate(25.000000, 11.000000)"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 >
                   {" "}
                   <path

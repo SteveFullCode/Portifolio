@@ -34,7 +34,7 @@ export default function Content() {
               repeat={Infinity}
             />
           </h1>
-          <p className="leading-7 [&:not(:first-child)]:mt-2 text-center mb-4">
+          <p className=" text-center mb-4">
             Oi, eu sou Steve Herison. Um entusiasmado por Front-end, residencia
             Fortaleza-ce Brasil <strong className="animate-pulse">📍</strong>
           </p>

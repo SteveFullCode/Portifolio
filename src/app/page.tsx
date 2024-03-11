@@ -2,9 +2,6 @@
 
 import Contato from "@/components/contato";
 import Content from "@/components/content";
-import Footer from "@/components/footer";
-import Header from "@/components/header/header";
-
 import ProjetoUm from "@/components/projetos/projetoUm";
 import Sobre from "@/components/sobre";
 

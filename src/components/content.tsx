@@ -39,7 +39,7 @@ export default function Content() {
             Fortaleza-ce Brasil <strong className="animate-pulse">📍</strong>
           </p>
           <div className="flex justify-between ">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 lg:flex-row">
               <Link href="https://wa.me/+558599673669?text=" target="_blank">
                 <Button className="font-semibold">Contate-me</Button>
               </Link>

@@ -2,7 +2,8 @@
 
 import Contato from "@/components/contato";
 import Content from "@/components/content";
-import ProjetoUm from "@/components/projetos/projetoUm";
+import Projetos from "@/components/projetos/Projetos";
+
 import Sobre from "@/components/sobre";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     <main className="h-full w-full pb-5 container">
       <Content />
       <Sobre />
-      <ProjetoUm />
+      <Projetos />
       <Contato />
     </main>
   );

@@ -9,7 +9,10 @@ const animation = {
 
 export default function Projetos() {
   return (
-    <section className="h-screen w-full  bg-zinc-50 dark:bg-slate-900 p-8 my-8">
+    <section
+      className="h-screen w-full  bg-zinc-50 dark:bg-slate-900 p-8 my-8"
+      id="projetos"
+    >
       <motion.h2
         className="text-xl text-center text-gray-400 mb-20"
         initial={animation.hide}
